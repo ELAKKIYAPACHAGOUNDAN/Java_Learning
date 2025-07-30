@@ -3,7 +3,7 @@ public class Main {
         int a=10, b=19;
         int reuslt= a+b;
         System.out.print(reuslt);
-        System.err.println(reuslt);
+        System.out.println(reuslte);
     }
 
 }
