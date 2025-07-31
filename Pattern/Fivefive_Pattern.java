@@ -35,11 +35,11 @@ public class Fivefive_Pattern{
 		* * * * * */
 		System.out.println();
 		System.out.println("n*n number pattern - 1");
-		int count=1;
+		int incrr=1;
 		for(int ii=1; ii<=5; ii++) {
 			for (int jj=1; jj<=5 ; jj++) {
 				System.out.print(jj+" ");
-				count++;
+				incrr++;
 			}
 			System.out.println();
 		}
@@ -51,11 +51,9 @@ public class Fivefive_Pattern{
 			1 2 3 4 5 */
 		System.out.println();
 		System.out.println("n*n number pattern - 1");
-		int countt=1;
 		for(int ij=1; ij<=5; ij++) {
 			for (int ji=1; ji<=5 ; ji++) {
 				System.out.print(ij+" ");
-				countt++;
 			}
 			System.out.println();
 		}
