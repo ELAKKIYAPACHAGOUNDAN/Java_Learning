@@ -31,6 +31,13 @@ public class Inbuilt_Methods {
 		
 		String s31= s1+"Python";
 		String s41= "Java"+s2;		
+
+		if(s31==s41) {
+			System.out.println("Equal");
+		}
+		else {
+			System.out.println("Unequal");
+		}
 		
 		
 		if(s1==s2) {
