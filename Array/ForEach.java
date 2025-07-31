@@ -4,8 +4,8 @@ public class ForEach {
         int[] array = {1, 2, 3, 4, 5}; // Natural numbers start from 1
 
         // Use for-each loop to print them
-        for (int result : numbers) {
-            System.out.print(array[result]-1 + " ");
+        for (int result : array) {
+            System.out.print(result + " ");
         }
     }
 }
