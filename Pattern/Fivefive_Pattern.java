@@ -32,7 +32,7 @@ public class Fivefive_Pattern{
 		* - - - * 
 		* - - - * 
 		* - - - * 
-		* * * * * */
+		* * * * *  */
 		System.out.println();
 		System.out.println("n*n number pattern - 1");
 		int incrr=1;
