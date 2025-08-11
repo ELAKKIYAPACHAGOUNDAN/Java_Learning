@@ -24,6 +24,7 @@ class Operations{
 public class Example1 {
     public static void main(String[] args) {
     Operations func = new Operations();
+    System.out.println("NOTE: Method Overloading defines that multiple methods can have the same name with different parameters.");
     func.add();
     func.add2(1,2,3);
     func.add1(1,2);
