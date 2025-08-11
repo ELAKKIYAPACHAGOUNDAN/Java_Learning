@@ -11,9 +11,16 @@ class Operations{
     void add4(int a, float b, double c){
         System.out.println(a + b + c);
     }
+    void add(int a){
+        System.out.println("This is integer: "+a);
+    }
+    void add(float a){
+        System.out.println("This is float: "+a);
+    }
+    void add(double a){
+        System.out.println("This is double: "+a);
+    }
 }
-
-
 public class Example1 {
     public static void main(String[] args) {
     Operations func = new Operations();
@@ -22,6 +29,8 @@ public class Example1 {
     func.add1(1,2);
     func.add4(1,3.5f,3.4);
     System.out.println("Method Overloading Example Completed");
-    
+    func.add(10);
+    func.add(10.2f);
+    func.add(10.5);
     }
 }
