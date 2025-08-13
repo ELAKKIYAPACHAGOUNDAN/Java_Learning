@@ -26,11 +26,11 @@ public class Example1 {
     Operations func = new Operations();
     System.out.println("NOTE: ");
     System.out.println("1) Method Overloading defines that multiple methods can have the same name with different parameters within the same class.");
-    System.out.println("2) Method Overloading is also known as compile-time polymorphism.");
-    System.out.println("3) Method overloading is also known as static binding.");
-    System.out.println("4) Method Overloading is used to increase the readability of the program.");
-    System.out.println("5) Method Overloading is used to perform different tasks with the same method name.");
-    System.out.println("6) Method Overloading is also known as early binding.");
+    System.out.println("2) Method Overloading is also known as Compile-time polymorphism.");
+    System.out.println("3) Method overloading is also known as Static binding.");
+    System.out.println("4) Method Overloading is also known as Early binding.");
+    System.out.println("5) Method Overloading is used to increase the readability of the program.");
+    System.out.println("6) Method Overloading is used to perform different tasks with the same method name.");
     System.out.println();
 
     System.out.println("OUTPUT:");
