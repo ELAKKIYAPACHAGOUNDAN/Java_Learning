@@ -32,7 +32,9 @@ public class Example2 {
 
         //causing ambiguity
         Ambiguity2 obj2 = new Ambiguity2();
-        //obj2.ambii(10,'a'); 
+        //obj2.ambii(10,'a'); -- This line will cause ambiguity error
+
+        
         //After Type conversion
         Ambiguity3 obj3 = new Ambiguity3();
         obj3.ambii((byte)10,'a'); 
